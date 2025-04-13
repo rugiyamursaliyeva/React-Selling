@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { FaBars } from "react-icons/fa6";
 import styles from  "./Header.module.css"
 
 
@@ -33,6 +34,7 @@ const Header = () => {
         <section className={styles.header}>
             <div className={styles.sell}>
                 <p>Selling</p><p className={styles.point}>.</p>
+                <FaBars className={styles.bars}/>
             </div>
             <div className={styles.nav}>
                 <a href="#">Home</a>

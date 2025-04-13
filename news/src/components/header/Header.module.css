@@ -96,3 +96,70 @@
         }
     }
   }
+.bars{
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .ico {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .phone,
+  .email {
+    flex-direction: row;
+    font-size: 14px;
+    gap: 5px;
+  }
+
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 60px;
+  }
+
+  .sell {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+  }
+
+  .point {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .bars {
+    display: block;
+    color: #bc753e;
+    padding: 5px;
+    font-size: 34px;
+    margin-left: 170px;
+  }
+}

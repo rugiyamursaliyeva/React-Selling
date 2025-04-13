@@ -63,3 +63,48 @@
       background-color: #555;
     }
   }
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .uno {
+      flex-direction: column;
+      align-items: center;
+      width: 110%;
+    }
+  
+    .peop {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    .foto img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .roots {
+      gap: 8px;
+    }
+  
+    .john {
+      font-size: 13px;
+    }
+  
+    .founder {
+      font-size: 9px;
+    }
+  
+    .nisi {
+      font-size: 14px;
+    }
+  
+    .lamar {
+      gap: 8px;
+    }
+  
+    .icons {
+      width: 24px;
+      height: 24px;
+      padding: 6px;
+      margin-bottom: 40px;
+    }
+  }
+  

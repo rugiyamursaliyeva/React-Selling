@@ -58,3 +58,45 @@
     font-size: 30px;
     font-weight: 900;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .hi {
+      flex-direction: column;
+    }
+  
+    .nn {
+      width: 90%;
+    }
+  
+    .mm img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .natus {
+      font-size: 14px;
+      width: 100%;
+      margin-top: 15px;
+      line-height: 1.5;
+    }
+  
+    .simth {
+      font-size: 12px;
+      margin-bottom: 50px;
+    }
+  
+    .begggi {
+      margin-bottom: 40px;
+    }
+  
+    .serrr {
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .weee {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  

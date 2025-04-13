@@ -70,3 +70,50 @@
     font-size: 30px;
     font-weight: 900;
   }
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .deja {
+      width: 110%;
+      height: 200px;
+    }
+  
+    .mix {
+      height: 100%;
+      gap: 12px;
+      width: 350px;
+    }
+  
+    .pro {
+      font-size: 13px;
+    }
+  
+    .sale {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .nate {
+      width: 90%;
+      font-size: 14px;
+    }
+  
+    .tts {
+      width: 130px;
+      height: 40px;
+      font-size: 12px;
+    }
+  
+    .begi {
+      gap: 4px;
+      margin-bottom: 40px;
+    }
+  
+    .ser {
+      font-size: 10px;
+    }
+  
+    .we {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+  

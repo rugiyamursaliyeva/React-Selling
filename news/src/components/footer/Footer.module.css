@@ -163,3 +163,154 @@
   .bottom .heart {
     color: #ff5252;
   }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.conta {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section, .quick, .follow, .product {
+    margin: 20px 0;
+    min-width: 100%;
+    text-align: center;
+}
+
+.section h3, .quick h3, .follow h3, .product h3 {
+    font-size: 18px;
+}
+
+.section {
+    flex: 1;
+    margin: 0 20px;
+    min-width: 200px;
+}
+
+.section p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.quick {
+    flex: 1;
+    margin: 0 20px;
+    min-width: 200px;
+}
+
+.quick ul {
+    list-style: none;
+}
+
+.quick ul li {
+    margin-bottom: 10px;
+}
+
+.quick ul li a {
+    color: #777;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.quick ul li a:hover {
+    color: #333;
+}
+
+.ic{
+    color: #6d6d6d;
+    font-size: 12px;
+}
+.follow {
+    flex: 1;
+    margin: 0 20px;
+    width: 200px;
+}
+
+.links {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.links a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #f8f8f8;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 36px;
+    color: #777;
+    &:hover{
+        background-color:  #eee;
+        color: #333;
+    }
+}
+
+.product {
+    flex: 1;
+    margin: 0 20px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.product h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.prices {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.btns {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    &:hover{
+        background-color: transparent;
+        color: #000;
+        border: 2px solid black;
+    }
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 40px;
+    color: #777;
+    font-size: 14px;
+}
+
+.bottom .heart {
+    color: #ff5252;
+}

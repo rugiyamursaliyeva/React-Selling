@@ -97,3 +97,65 @@
       transition: 0.3s;
     }
   }
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .don {
+      flex-direction: column;
+      align-items: center;
+      width: 110%;
+      gap: 20px;
+    }
+  
+    .cry {
+      width: 90%;
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
+  
+    .photo img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    .details {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .details h2 {
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  
+    .id, .sit {
+      font-size: 13px;
+      line-height: 1.5;
+      width: 90%;
+    }
+  
+    .priceSection {
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .oldPrice {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .detailsBtn, .cartsBtn {
+      width: 80%;
+      max-width: 250px;
+      font-size: 14px;
+    }
+  }
+    

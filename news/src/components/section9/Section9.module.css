@@ -93,3 +93,66 @@
     font-size: 30px;
     font-weight: 900;
   }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .ufo {
+      flex-direction: column;
+    }
+  
+    .peops {
+      width: 90%;
+    }
+  
+    .fotos img {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .rootss {
+      align-items: center;
+      gap: 8px;
+    }
+  
+    .johns {
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .founders {
+      font-size: 12px;
+      gap: 5px;
+      text-align: center;
+    }
+  
+    .nisis {
+      font-size: 12px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .lamars {
+      gap: 5px;
+      margin-top: 10px;
+    }
+  
+    .read {
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  
+    .begggi {
+      margin-bottom: 40px;
+    }
+  
+    .serrr {
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .weee {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+  
