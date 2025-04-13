@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.uno {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .peop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+  }
+  .foto img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .roots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .john {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  .founder{
+    color: #b6b6b6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  .nisi {
+    color: #666;
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .lamar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .icons {
+    background-color: #777;
+    color: white;
+    width: 27px;
+    height: 27px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 60px;
+    &:hover{
+      background-color: #555;
+    }
+  }

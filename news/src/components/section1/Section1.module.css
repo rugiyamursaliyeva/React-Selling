@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+  }
+  .shop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20%;
+    width: 60%;
+    height: 100%;
+    gap: 20px;
+    color: white;
+  }
+  .us{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 900;
+  }
+  .lorem{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .now{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    &:hover{
+        background-color: white;
+        color: black;
+        transition: 0.3s;
+    }
+  }
+  .club{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    &:hover{
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        transition: 0.3s;
+    }
+  }
+  .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    margin-top: 60px;
+    gap: 12px;
+  }
+  .pop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(159, 159, 159);
+  }
+  .our{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .dolor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 12px;
+    line-height: 2;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
